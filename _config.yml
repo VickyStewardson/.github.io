@@ -1,0 +1,30 @@
+title: Vicky Stewardson
+description: Business Analyst | Scrum Master | Project Manager | Product Owner | Digital Transformation Strategist
+author: Vicky Stewardson
+url: https://vickyStewardson.github.io
+baseurl: ""
+
+# Theme
+theme: minima
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Site settings
+email: hello@vickystewardson.com
+linkedin_username: vickystewardson
+github_username: VickyStewardson
+
+# Exclude files from build
+exclude:
+  - .gitignore
+  - README.md
